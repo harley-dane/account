@@ -1,5 +1,5 @@
 // Use relative path since front-end and back-end are on the same domain
-const apiBaseUrl = ''; // Empty string means same origin (e.g., /register goes to https://yourapp.onrender.com/register)
+const apiBaseUrl = 'https://account-k41o.onrender.com/'; // Empty string means same origin (e.g., /register goes to https://yourapp.onrender.com/register)
 let token = localStorage.getItem('token');
 let selectedReceiverId = null;
 let isTestMode = false;
